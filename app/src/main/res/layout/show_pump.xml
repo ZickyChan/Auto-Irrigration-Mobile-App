@@ -1,0 +1,76 @@
+<com.example.asusn56vz.pmmobileapp.MainLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#000"
+        android:visibility="gone"
+        >
+        <include layout="@layout/setting"
+            android:id="@+id/settingLayout"
+            />
+        <include layout="@layout/hint_screen"
+            android:id="@+id/hintLayout"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:background="@color/green_embedded"
+            >
+            <TextView
+                android:id="@+id/icon_back_main"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/back"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:id="@+id/pump_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="Name"
+                android:textColor="#000"
+                android:gravity="center"
+                android:typeface="serif"
+                />
+            <ImageButton
+                android:id="@+id/menu_icon"
+                android:layout_width="25dp"
+                android:layout_height="17dp"
+                android:background="@drawable/menu"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="4dp"
+                />
+        </RelativeLayout>
+        <FrameLayout
+            android:id="@+id/fragment_pump"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green_embedded"
+            >
+
+        </FrameLayout>
+
+    </LinearLayout>
+</com.example.asusn56vz.pmmobileapp.MainLayout>
