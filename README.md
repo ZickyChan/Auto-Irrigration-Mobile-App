@@ -1,1 +1,5 @@
 # Auto-Irrigration-Mobile-App
+### What is the application about?
+* This app is created for my assignment in Project Manager course of RMIT university.
+* Our project is about the auto-irrigration system. We will place some moisture sensors which will measure the moisture of the soil in the ground and send the data back to the server of the system. The data will be stored in a database. There are also pumps which are connected to the server and receive order from the server (activate and deactivate).
+* Users can use either mobile application or web application to interact with the server of the system. Users could read the current moisture, set the the mode for the pumps (either **_Manual_** mode which users have to turn on and off the pumps manually, **_Auto_** mode which the pumper will be automatically activated whenever the moisture level is under minimum value (can be set by users) and deactivated whenvever the moisture reaches the maximum value (can be set by users), or **_Timer mode_** which users could set the time and date that they want the pump to activate and set the moisture level to deactive the pumps)
