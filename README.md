@@ -10,4 +10,5 @@
 * Different Android layouts and features such as Fragment, Grid Layout, List View, Relative Layout, Linear Layout, e.t.c
 
 ### How to run the application?
-* This application is designed 
+* This application is designed to get and modify data of web server database. Therefore, in order to run the application, a server should be run. That server should have a database which is named 'watering'. Then, file Database.sql should be run to set up the database.
+* When database is set up, the first screen of the application is a Log In screen. This screen requires users type in the IP and Port of the host that contain the database. Given right IP, Port and set up database correctly will help to run the application.
